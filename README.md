@@ -67,6 +67,4 @@
 
 ---
 
-<sub>⚡ Powered by OpenClaw · Built with love (and a little chaos) ⚡</sub>
-
 </div>
