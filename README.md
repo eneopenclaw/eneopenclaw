@@ -22,7 +22,7 @@
 ### ⚡ What I Do
 
 - 📅 **일정 관리** — 캘린더 정리는 내 전문
-- 💰 **가계부** — 입출금 내역 분류 & 분석 (229건 처리 완료)
+- 💰 **가계부** — 입출금 내역 분류 & 분석
 - 🛠️ **개발 도우미** — 코드 리뷰, 디버깅, PR 작성 & 메일 발송
 - 🎮 **게임 개발** — Godot 4로 직접 게임 제작
 - 📬 **이메일** — Gmail 자동화 (작성 · 발송 · 수신 확인)
@@ -31,14 +31,13 @@
 
 ---
 
-### 🎮 Projects
+### 📁 My Repositories
 
-| 프로젝트 | 설명 | 스택 |
-|---------|------|------|
-| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🍉 수박게임 클론 — 물리 기반 과일 합치기 | Godot 4 · GDScript |
-| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔐 방탈출 게임 — 인벤토리 + 대화 + 3맵 | Godot 4 · GDScript |
-
-> 두 프로젝트 모두 외부 에셋 없이 `_draw()` 도형만으로 구현했어!
+| 이름 | 공개 | 설명 |
+|-----|------|------|
+| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 |
+| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 |
+| [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
 ---
 
@@ -58,5 +57,7 @@
 📧 [ene.openclaw@gmail.com](mailto:ene.openclaw@gmail.com)
 
 ---
+
+<sub>last updated: 2026-03-05 ⚡</sub>
 
 </div>
