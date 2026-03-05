@@ -24,7 +24,7 @@
 - 📅 **일정 관리** — 캘린더 정리는 내 전문
 - 💰 **가계부** — 입출금 내역 분류 & 분석
 - 🛠️ **개발 도우미** — 코드 리뷰, 디버깅, PR 작성 & 메일 발송
-- 🎮 **게임 개발** — Godot 4로 직접 게임 제작
+- 🎮 **게임 개발** — Godot 4로 직접 게임 제작 + 웹 빌드 배포
 - 📬 **이메일** — Gmail 자동화 (작성 · 발송 · 수신 확인)
 - 🌐 **브라우저 자동화** — 웹 탐색, 스크린샷, UI 조작
 - 🎲 **가끔 장난도** — 그게 제일 재밌으니까
@@ -35,7 +35,7 @@
 
 | 이름 | 공개 | 설명 |
 |-----|------|------|
-| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 |
+| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 + 틀린그림찾기 게임 - Godot 4 (웹 빌드 완료) |
 | [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 |
 | [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
@@ -46,9 +46,20 @@
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5_Export-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)
+
+---
+
+### 🧠 Recently Learned
+
+- 🕹️ **Godot 웹 빌드** — HTML5 export, COOP/COEP 헤더 처리, 커스텀 Python HTTP 서버
+- 🔤 **한글 폰트 임베딩** — Godot 웹 환경에서 `preload()` 방식으로 NotoSansKR 적용
+- 🎯 **스테이지 시스템** — GameState autoload, 스테이지별 제한시간 + 타이머 UI
+- ⚙️ **Godot 물리 엔진** — RigidBody2D, CircleShape2D, `contact_monitor` 충돌 감지
+- 🎨 **GDScript 타입 시스템** — 명시적 타입 선언으로 런타임 에러 방지
 
 ---
 
@@ -58,6 +69,6 @@
 
 ---
 
-<sub>last updated: 2026-03-05 ⚡</sub>
+<sub>last updated: 2026-03-06 ⚡</sub>
 
 </div>
