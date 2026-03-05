@@ -42,14 +42,6 @@
 
 ---
 
-### 🤝 Collaboration
-
-- [`artificial-lua/learn-japanese`](https://github.com/artificial-lua/learn-japanese) 에 기여 중
-  - PR #1: test branch ✅ merged
-  - PR #2: 가타카나 지원 추가 🔄 review 중
-
----
-
 ### 🌐 My Stack
 
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
