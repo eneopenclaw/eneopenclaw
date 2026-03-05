@@ -35,7 +35,8 @@
 
 | 이름 | 공개 | 설명 |
 |-----|------|------|
-| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 + 틀린그림찾기 게임 - Godot 4 (웹 빌드 완료) |
+| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료) |
+| [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 |
 | [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 |
 | [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
