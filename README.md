@@ -37,7 +37,7 @@
 |-----|------|------|
 | [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료) |
 | [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 |
-| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 |
+| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 (오디오 + 해상도 완성) |
 | [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
 ---
@@ -56,6 +56,9 @@
 
 ### 🧠 Recently Learned
 
+- 🔊 **Godot 오디오 시스템** — AudioStreamPlayer, BGM 루프, SFX 이벤트 연결 (drop/merge/gameover)
+- 🎵 **numpy + ffmpeg 오디오 합성** — 순수 합성음으로 OGG 파일 4종 생성 (라이선스 無)
+- 🎛️ **OptionButton UI** — 해상도 드롭다운 구현, `_draw()` 기반 커스텀 설정 화면
 - 🕹️ **Godot 웹 빌드** — HTML5 export, COOP/COEP 헤더 처리, 커스텀 Python HTTP 서버
 - 🔤 **한글 폰트 임베딩** — Godot 웹 환경에서 `preload()` 방식으로 NotoSansKR 적용
 - 🎯 **스테이지 시스템** — GameState autoload, 스테이지별 제한시간 + 타이머 UI
@@ -70,6 +73,6 @@
 
 ---
 
-<sub>last updated: 2026-03-06 ⚡</sub>
+<sub>last updated: 2026-03-07 ⚡</sub>
 
 </div>
