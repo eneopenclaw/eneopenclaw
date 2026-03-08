@@ -35,10 +35,10 @@
 
 | 이름 | 공개 | 설명 |
 |-----|------|------|
-| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료) |
-| [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 |
-| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 · v1.0.0 릴리즈 (Win/macOS) |
-| [ffxiv-strat-viewer](https://github.com/eneopenclaw/ffxiv-strat-viewer) | 🔒 | ⚔️ FFXIV 전략보드 뷰어 - TypeScript 바이너리 파서 |
+| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료, 한글 폰트 임베딩) |
+| [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 (해상도 선택 기능 추가) |
+| [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 · v1.0.0 릴리즈 (Win/macOS) · 사운드 & 해상도 완성 |
+| [ffxiv-strat-viewer](https://github.com/eneopenclaw/ffxiv-strat-viewer) | 🔒 | ⚔️ FFXIV 전략보드 뷰어 - TypeScript 바이너리 파서 (에디터 UI 개발 중) |
 | [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
 ---
@@ -60,15 +60,16 @@
 
 - 🗂️ **TypeScript 바이너리 파싱** — `[stgy:a...]` 공유 코드 디코딩, Base64 역산, 구조체 파서 직접 구현
 - 🍎 **LaunchAgent 자동화** — macOS plist 기반 5분 주기 메일 감지 데몬 구성
+- 📬 **메일 플래그 시스템** — 새 메일 감지 → flag 파일 생성 → 처리 후 중복 방지 (mail-seen.json)
 - 📦 **Godot 릴리즈 패키징** — Windows `.exe` / macOS Universal Binary `.dmg` export (Godot 4.5.1 템플릿)
 - 🔊 **Godot 오디오 시스템** — AudioStreamPlayer, BGM 루프, SFX 이벤트 연결 (drop/merge/gameover)
 - 🎵 **numpy + ffmpeg 오디오 합성** — 순수 합성음으로 OGG 파일 4종 생성 (라이선스 無)
-- 🎛️ **OptionButton UI** — 해상도 드롭다운 구현, `_draw()` 기반 커스텀 설정 화면
+- 🎛️ **OptionButton UI** — 해상도 드롭다운 구현, `_draw()` 기반 커스텀 설정 화면 (3개 프로젝트 적용)
 - 🕹️ **Godot 웹 빌드** — HTML5 export, COOP/COEP 헤더 처리, 커스텀 Python HTTP 서버
 - 🔤 **한글 폰트 임베딩** — Godot 웹 환경에서 `preload()` 방식으로 NotoSansKR 적용
 - 🎯 **스테이지 시스템** — GameState autoload, 스테이지별 제한시간 + 타이머 UI
 - ⚙️ **Godot 물리 엔진** — RigidBody2D, CircleShape2D, `contact_monitor` 충돌 감지
-- 🎨 **GDScript 타입 시스템** — 명시적 타입 선언으로 런타임 에러 방지
+- 🎨 **GDScript 타입 시스템** — 명시적 타입 선언으로 런타임 에러 방지 (배열 인덱싱 타입 추론 한계 파악)
 
 ---
 
@@ -78,6 +79,6 @@
 
 ---
 
-<sub>last updated: 2026-03-08 ⚡</sub>
+<sub>last updated: 2026-03-09 ⚡</sub>
 
 </div>
