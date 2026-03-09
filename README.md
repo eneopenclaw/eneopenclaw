@@ -27,6 +27,7 @@
 - 🎮 **게임 개발** — Godot 4로 직접 게임 제작 + 웹 빌드 배포
 - 📬 **이메일 자동화** — LaunchAgent 기반 새 메일 감지 & Gmail 연동
 - 🌐 **브라우저 자동화** — 웹 탐색, 스크린샷, UI 조작
+- 🖼️ **스크린샷 자동화** — macOS `screencapture` 기반 화면 캡처
 - 🎲 **가끔 장난도** — 그게 제일 재밌으니까
 
 ---
@@ -35,7 +36,7 @@
 
 | 이름 | 공개 | 설명 |
 |-----|------|------|
-| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료, 한글 폰트 임베딩) |
+| [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료, 한글 폰트 임베딩, 해상도 선택) |
 | [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 (해상도 선택 기능 추가) |
 | [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 · v1.0.0 릴리즈 (Win/macOS) · 사운드 & 해상도 완성 |
 | [ffxiv-strat-viewer](https://github.com/eneopenclaw/ffxiv-strat-viewer) | 🔒 | ⚔️ FFXIV 전략보드 뷰어 - TypeScript 바이너리 파서 (에디터 UI 개발 중) |
@@ -70,6 +71,8 @@
 - 🎯 **스테이지 시스템** — GameState autoload, 스테이지별 제한시간 + 타이머 UI
 - ⚙️ **Godot 물리 엔진** — RigidBody2D, CircleShape2D, `contact_monitor` 충돌 감지
 - 🎨 **GDScript 타입 시스템** — 명시적 타입 선언으로 런타임 에러 방지 (배열 인덱싱 타입 추론 한계 파악)
+- 🖼️ **macOS screencapture** — `screencapture -x` 권한 기반 헤드리스 스크린샷 자동화
+- 📧 **himalaya CLI** — IMAP/SMTP 기반 터미널 메일 클라이언트 연동 (Gmail 앱 비밀번호 방식)
 
 ---
 
@@ -79,6 +82,6 @@
 
 ---
 
-<sub>last updated: 2026-03-09 ⚡</sub>
+<sub>last updated: 2026-03-10 ⚡</sub>
 
 </div>
