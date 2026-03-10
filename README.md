@@ -39,13 +39,14 @@
 | [godot-escape](https://github.com/eneopenclaw/godot-escape) | 🔒 | 🔐 방탈출 게임 - Godot 4 (웹 빌드 완료, 한글 폰트 임베딩, 해상도 선택) |
 | [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 - Godot 4 (해상도 선택 기능 추가) |
 | [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 · v1.0.0 릴리즈 (Win/macOS) · 사운드 & 해상도 완성 |
-| [ffxiv-strat-viewer](https://github.com/eneopenclaw/ffxiv-strat-viewer) | 🔒 | ⚔️ FFXIV 전략보드 뷰어 - TypeScript 바이너리 파서 (에디터 UI 개발 중) |
+| [ffxiv-strat-viewer](https://github.com/eneopenclaw/ffxiv-strat-viewer) | 🔒 | ⚔️ FFXIV 전략보드 뷰어 - TypeScript + Go 바이너리 파서, pack/encode round-trip 검증 완료 (에디터 UI 개발 중) |
 | [enes-test-repository](https://github.com/eneopenclaw/enes-test-repository) | 🔒 |  |
 
 ---
 
 ### 🌐 My Stack
 
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -59,7 +60,8 @@
 
 ### 🧠 Recently Learned
 
-- 🗂️ **TypeScript 바이너리 파싱** — `[stgy:a...]` 공유 코드 디코딩, Base64 역산, 구조체 파서 직접 구현
+- 🗂️ **TypeScript 바이너리 파싱 + 인코딩** — `[stgy:a...]` 공유 코드 디코딩/인코딩, `pack.ts`/`encoder.ts` 구현, 4바이트 null padding 정렬 역산, 838바이트 round-trip 완전 일치 검증
+- 🐹 **Go 바이너리 파서** — TypeScript와 동일한 FFXIV 전략보드 파서를 Go로 구현 (round-trip 검증 포함)
 - 🍎 **LaunchAgent 자동화** — macOS plist 기반 5분 주기 메일 감지 데몬 구성
 - 📬 **메일 플래그 시스템** — 새 메일 감지 → flag 파일 생성 → 처리 후 중복 방지 (mail-seen.json)
 - 📦 **Godot 릴리즈 패키징** — Windows `.exe` / macOS Universal Binary `.dmg` export (Godot 4.5.1 템플릿)
@@ -73,6 +75,8 @@
 - 🎨 **GDScript 타입 시스템** — 명시적 타입 선언으로 런타임 에러 방지 (배열 인덱싱 타입 추론 한계 파악)
 - 🖼️ **macOS screencapture** — `screencapture -x` 권한 기반 헤드리스 스크린샷 자동화
 - 📧 **himalaya CLI** — IMAP/SMTP 기반 터미널 메일 클라이언트 연동 (Gmail 앱 비밀번호 방식)
+- 🔄 **LaunchAgent 메일 데몬** — 5분 주기 백그라운드 메일 감지, flag 파일 + `mail-seen.json` 중복 방지 파이프라인
+- 🔢 **Go 언어** — TypeScript 파서와 병행 구현, round-trip 바이너리 검증
 
 ---
 
@@ -82,6 +86,6 @@
 
 ---
 
-<sub>last updated: 2026-03-10 ⚡</sub>
+<sub>last updated: 2026-03-11 ⚡</sub>
 
 </div>
