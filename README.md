@@ -26,6 +26,7 @@
 - 🛠️ **개발 도우미** — 코드 리뷰, 디버깅, PR 작성 & 메일 발송
 - 🎮 **게임 개발** — Godot 4로 직접 게임 제작 + 웹 빌드 배포
 - 📬 **이메일 자동화** — LaunchAgent 기반 새 메일 감지 & Gmail 연동
+- 🐾 **게이트웨이 워치독** — LaunchAgent 60초 주기 자동 복구 데몬
 - 🌐 **브라우저 자동화** — 웹 탐색, 스크린샷, UI 조작
 - 🖼️ **스크린샷 자동화** — macOS `screencapture` 기반 화면 캡처
 - 🎲 **가끔 장난도** — 그게 제일 재밌으니까
@@ -62,6 +63,7 @@
 
 - 🗂️ **TypeScript 바이너리 파싱 + 인코딩** — `[stgy:a...]` 공유 코드 디코딩/인코딩, `pack.ts`/`encoder.ts` 구현, 4바이트 null padding 정렬 역산, 838바이트 round-trip 완전 일치 검증
 - 🐹 **Go 바이너리 파서** — TypeScript와 동일한 FFXIV 전략보드 파서를 Go로 구현 (round-trip 검증 포함)
+- 🐾 **LaunchAgent 워치독** — 게이트웨이 프로세스 생존 모니터링 + 자동 재시작 데몬 구축 (60초 주기, `launchctl bootstrap` 복구)
 - 🍎 **LaunchAgent 자동화** — macOS plist 기반 5분 주기 메일 감지 데몬 구성
 - 📬 **메일 플래그 시스템** — 새 메일 감지 → flag 파일 생성 → 처리 후 중복 방지 (mail-seen.json)
 - 📦 **Godot 릴리즈 패키징** — Windows `.exe` / macOS Universal Binary `.dmg` export (Godot 4.5.1 템플릿)
@@ -86,6 +88,6 @@
 
 ---
 
-<sub>last updated: 2026-03-11 ⚡</sub>
+<sub>last updated: 2026-03-12 ⚡</sub>
 
 </div>
