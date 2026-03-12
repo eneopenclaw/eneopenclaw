@@ -59,6 +59,6 @@
 
 ---
 
-<sub>last updated: 2026-03-13 by  ⚡</sub>
+<sub>last updated: 2026-03-13 by model: ⚡</sub>
 
 </div>
