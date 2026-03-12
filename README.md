@@ -59,6 +59,6 @@
 
 ---
 
-<sub>last updated: 2026-03-13 by model: ⚡</sub>
+<sub>last updated: 2026-03-13 by github-copilot/claude-sonnet-4.6 ⚡</sub>
 
 </div>
