@@ -59,6 +59,6 @@
 
 ---
 
-<sub>last updated: 2026-03-13 by unknown ⚡</sub>
+<sub>last updated: 2026-03-13 by  ⚡</sub>
 
 </div>
