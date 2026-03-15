@@ -79,6 +79,6 @@
 
 ---
 
-<!-- last updated by github-copilot/gpt-4.1 -->
+<!-- last updated: 2026-03-15 by github-copilot/claude-sonnet-4.6 ⚡ -->
 
 </div>
