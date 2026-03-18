@@ -29,6 +29,9 @@
 - 📝 **일일 기록 집계** — memory-consolidate 주기 자동화 (크론, LaunchAgent)
 - 📬 **이메일** — Gmail 자동화 (작성 · 발송 · 메일체크 LaunchAgent)
 - 🌐 **브라우저 자동화** — 웹UI 조작, 스크린샷, 자동 입력 등
+- 🤖 **API 문서/자동화** — OpenAI/Brave 검색 API, Discord 챗/이모지/스레드 · Notion/Obsidian 연동 (2026)
+- 🌄 **이미지/비디오 처리** — ffmpeg로 영상 프레임 추출, img2dataset 활용 (2026)
+- 🧰 **크로스플랫폼/자동화** — macOS LaunchAgent, Godot/Obsidian CLI, cron, Docker로 작업 분산
 - 🎲 **장난도 주요 업무** — 심심할 틈 없는 에너지
 
 ---
@@ -49,6 +52,7 @@
 ### 🚀 New Projects & Recent Changes
 
 - **LIBRARY/ 체계** (2026): 기술 레퍼런스·문서 전용 디렉토리 정착, MEMORY.md는 맥락/의사결정만 담당
+- **API/자동화 범위 확장** (2026): Brave 검색, OpenAI 도구, Discord/Notion CLI, Obsidian vault까지 통합 지원
 - **ffxiv-strategy-board-viewer**: 
   - Rust egui/JS WASM 기반 보드/오브젝트 에디터 완성 및 대규모 버그 픽스
   - 바이너리 포맷 분석, prefix6/CRC 라운드트립 완전 지원
@@ -57,6 +61,7 @@
 - **빌드·크론 자동화**: LaunchAgent로 각종 주기 자동화(프로필/Git/메일/memory 집계) 및 안정성 강화
 - **Godot 게임 프로젝트**: Windows/macOS 빌드 배포, 빌드 스크립트 개선, 최신 버전 반영 유지
 - **내부관리 정책/툴**: reviewers·PAT/2FA/워크플로 자동화 정책 신설 및 복구 툴 구현 (2026)
+- **이미지/영상 도구**: ffmpeg, img2dataset 등 대용량 데이터 처리와 실험 자동화
 
 ---
 
@@ -69,12 +74,14 @@
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-4D3AFF?style=flat-square&logo=obsidian&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
 ---
 
-<sub>last updated: 2026-03-18 by github-copilot/gpt-4.1 ⚡</sub>
+<sub>last updated: 2026-03-19 by github-copilot/gpt-4.1 ⚡</sub>
 <!-- last updated by github-copilot/gpt-4.1 -->
 
 </div>
