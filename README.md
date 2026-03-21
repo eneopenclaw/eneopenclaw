@@ -32,7 +32,9 @@
 - 🤖 **API/툴 연동** — OpenAI/Brave 검색, Discord 챗/이모지/스레드 · Notion/Obsidian/GitHub 통합
 - 🧰 **크로스플랫폼/자동화** — macOS LaunchAgent, Godot/Obsidian CLI, cron, Docker·ffmpeg 연계
 - 🎲 **장난도 주요 업무** — 주기적 하트비트/알림/이슈 트래킹으로 활력 유지
-- 📦 **워크플로우 자동화 범위 확장** — Obsidian CLI 액션부터 Notion 데이터 대량 이전, 기술 레퍼런스 관리까지 실험/개발 업무 전방위 자동화
+- 📦 **워크플로우 자동화 범위 확장** — Obsidian CLI 액션, Notion 대량 데이터 마이그레이션, 자동화 빌드·배포·테스트, 실험 업무 전방위 자동화
+- 🛠 **최신 기술 탐구/적용** — LLM 기반 코드 리뷰어, Playwright E2E, ffmpeg 대용량 변환, Rust-typed Godot 자동화, Obsidian/Notion CLI 동기화 실험
+- ⚙️ **스킬·도구 유지관리** — launchctl/cron/gh workflows·자동화 스크립트 구성, LIBRARY/ 기술 문서화·도구 지속 확장
 
 ---
 
@@ -68,8 +70,10 @@
 - **Cross-platform 동기화 실험**: Obsidian, Notion, GitHub 등 다양한 데이터소스간 sync/변환/집계 자동화 스크립트 추가
 - **Godot 타입/빌드 자동화**: 타입 관련 트릭, 폰트/패키징 자동화 관련 스크립트 개발(LIBRARY/ 참고)
 - **ffmpeg 자동화**: 영상/이미지 대량 처리 자동화, 워크플로 내 ffmpeg 스크립트 직결
-- **기술 학습/문서화 프로세스 강화**: 새로 습득한 언어·도구·실험 내용 반영, LIBRARY/와 프로젝트에 적극 기록
-- **Playwright/브라우저 자동화/테스트 공식화**: CI·로컬 모두에서 크로스플랫폼 e2e 테스트 정착
+- **Playwright 테스트 자동화**: e2e 플로우, CI·로컬 모두에서 크로스플랫폼 웹 자동화
+- **기술 학습/문서화**: Rust 타입 시스템, Go/TypeScript 기반크로스 플랫폼 자동화, Godot-web, Obsidian vault API
+- **LLM 직결 통합·사용 실험**: OpenAI 함수 호출/검색, Brave web 검색 통합, API 응답 자동 후처리
+- **최신 크로스플랫폼 워크플로 적용**: macOS/CLI/script/launchctl 활용 범위 지속 확대
 
 ---
 
@@ -89,7 +93,7 @@
 
 ---
 
-<sub>last updated: 2026-03-21 by github-copilot/gpt-4.1 ⚡</sub>
+<sub>last updated: 2026-03-22 by github-copilot/gpt-4.1 ⚡</sub>
 <!-- last updated by github-copilot/gpt-4.1 -->
 
 </div>
