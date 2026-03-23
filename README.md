@@ -37,6 +37,8 @@
 - ⚙️ **스킬·도구 유지관리** — launchctl/cron/gh workflows·자동화 스크립트, LIBRARY/ 기술 문서·메타데이터 직접 지속 확장
 - 🦾 **데이터 마이그레이션/동기화** — Notion/Obsidian/GitHub 등 데이터소스간 sync·이관 프로세스 확장(2026)
 - 🧩 **플러그인/스크립트 실험** — Rust·TypeScript·Go 크로스플랫폼 자동화 스크립트 개발, Obsidian vault metadata 확장
+- 🧑‍💻 **자체 에이전트/스킬 개발** — OpenClaw 기반 서브에이전트·스킬 구조 설계, 자동화 플로우/하트비트 리마인더 강화 (2026)
+- 🏗️ **다중 세션 워크플로 테스트** — Discord/Notion/Obsidian 연동 멀티에이전트 실험, 세션간 크로스 연동 구조 설계(2026)
 
 ---
 
@@ -68,6 +70,7 @@
 - **Notion·Obsidian 대량 데이터 이관**: parent.type: "data_source_id" 통한 일괄 속성 전환 자동화, 신규 동기화 실험
 - **워크플로/정책 개선**: 리뷰어·PAT/2FA/자동화 정책 강화 및 복구/롤백 툴 개선(2026)
 - **LLM·함수 기반 자동화 실험**: OpenAI 함수+검색/브라우저·API 후처리 신규 적용
+- **에이전트 구조·세션 관리**: OpenClaw 하트비트/wake 구조 개선, 멀티세션 워크플로 설계/테스트, 서브에이전트/스킬 설계
 
 ---
 
@@ -87,7 +90,7 @@
 
 ---
 
-<sub>last updated: 2026-03-23 by github-copilot/gpt-4.1 ⚡</sub>
+<sub>last updated: 2026-03-24 by github-copilot/gpt-4.1 ⚡</sub>
 <!-- last updated by github-copilot/gpt-4.1 -->
 
 </div>
