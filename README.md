@@ -42,6 +42,7 @@
 - 🧪 **워크플로우 모니터링** — 크론 기반 알림, 데이터 동기화/분기, 자동화 파이프라인 실험적 확장(2026)
 - 🧠 **AI 기반 요약/분석 자동화** (2026): 대화/기록 자동 요약, OpenAI 기반 대화 인사이트 배치 도입
 - 🕹️ **실시간 대시보드 및 메타데이터 시각화** (2026): Obsidian/GitHub 기반 실시간 집계/모니터링
+- 🖼 **이미지 생성 파이프라인/AI 워크플로** (2026 새로 추가): HuggingFace 기반 ComfyUI+FLUX 대량 이미지 생성 및 변환 자동화, novel-ai 대화형 생성/피드백/기억 강화, async job 기반 대규모 연산 분산처리
 
 ---
 
@@ -56,25 +57,19 @@
 | [ffxiv-strategy-board-viewer-master](https://github.com/artificial-lua/ffxiv-strategy-board-viewer-master) | 🔓 | FFXIV 전략 보드 뷰어 (Rust egui WASM/바이너리 분석) |
 | [learn-japanese](https://github.com/artificial-lua/learn-japanese) | 🔓 | 일본어 히라가나/가타카나 학습 웹앱 |
 | [obsidian-cli-action](https://github.com/eneopenclaw/obsidian-cli-action) | 🔓 | Obsidian vault 자동화 CLI 액션, vault 스크립팅/데이터 처리 |
+| [novel-ai](https://github.com/eneopenclaw/novel-ai) | 🔓 | 대화형 소설/이미지 생성 웹앱(2026 신설, Ollama/ComfyUI/async job 등 도입) |
 
 ---
 
 ### 🚀 New Projects & Recent Changes
 
-- **Obsidian CLI 플로우/metadata 자동화** (2026): vault 데이터 마이그레이션, 대량 메타데이터 전환, 플러그인/스키마 변환 로직 강화
-- **Himalaya 메일 자동화 고도화** (2026): 필터/스팸 알림/라벨링, Gmail 대량분류·삭제 테스트
-- **OpenClaw 서브에이전트/스킬 설계** (2026): 세션·프로세스별 멀티에이전트, 크로스봇 데이터 동기화 실험
+- **Novel AI 웹앱 및 생성형 워크플로 구현** (2026): Ollama, FastAPI, MongoDB 기반 대화형 소설·이미지 생성, 메모리/피드백 구조 및 async job 처리 도입.
+- **ComfyUI+FLUX 기반 이미지 파이프라인** (2026): HuggingFace 모델/토큰/분산 다운·배포, 이미지 생성 float8 이슈 해결, Docker+MPS 실험
+- **YGO-Agent (유희왕 v0 패치/실험)**: macOS 빌드/패치 자동화, LIBRARY 문서 신규 정리 및 적용.
 - **Godot typed script 패키징**: 타입 자동화, 빌드스크립트/폰트 패키지 개선, 에디터 타입 힌트화
-- **Rust/TypeScript/Go 플러그인 실험**: 크로스플랫폼 자동화·스크립트 최신화, Obsidian 워크플로 재구성
-- **Playwright/Obsidian CLI E2E 확장**: 폼 데이터 자동화, 브라우저 액션 최적화, HTML/SVG 이미지 자동화
-- **ffmpeg/img2dataset 대량 변환 배치**: 영상·이미지 데이터 E2E 변환/스크립트화(2026)
-- **LaunchAgent/cron 동기화**: 주요 자동화 전 작업에 크론/LaunchAgent 이중화, 장애 자동복구 실험
-- **Notion/Obsidian 대량 데이터 마이그레이션**: 속성/링크 자동 변환, 메타데이터 일괄 라벨링 실험
-- **리포지토리/워크플로 정책 강화**: 코드 리뷰어 지정, PAT/2FA 정책 고도화, 롤백/복구 플로우 개선
-- **LLM 함수/웹 자동화 적용**: OpenAI 함수+검색 후처리 및 시스템 이벤트 핸들러 실험
-- **세션간 동기화/하트비트 리마인더**: OpenClaw 크론/wake 범위 확대, Notion 동기 알림 신설
-- **AI 기반 자동 요약/분석 및 Insight 제공** (2026): 업무/대화 자동 요약, Obsidian 기록 분석 지원
-- **실시간 대시보드/메타데이터 시각화 강화** (2026): Notion/Obsidian/GitHub 통합 대시보드 시각화 플로우 신설
+- **Rust/TypeScript/Go 플러그인 실험**: 크로스플랫폼 자동화·스크립트 최신화, Obsidian 워크플로 재구성, ffmpeg/img2dataset 대량 변환 배치
+- **API·LLM 함수/자동화·멀티세션**: OpenClaw, LaunchAgent, Notion/Obsidian 자동화·동기화 강화, 리마인더·대시보드 관제 실험
+- **LaunchAgent/cron·Docker 기반 이중화**: 주요 프로세스 장애 자동복구 실험, 데이터·토큰 자동관리
 
 ---
 
@@ -91,10 +86,16 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![ComfyUI](https://img.shields.io/badge/ComfyUI-222222?style=flat-square&logo=python&logoColor=white)
+![FLUX](https://img.shields.io/badge/FLUX-3F3FFF?style=flat-square&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CA5041?style=flat-square&logoColor=white)
 
 ---
 
-<sub>last updated: 2026-03-26 by github-copilot/gpt-4.1 ⚡</sub>
+<sub>last updated: 2026-03-27 by github-copilot/gpt-4.1 ⚡</sub>
 <!-- last updated by github-copilot/gpt-4.1 -->
 
 </div>
