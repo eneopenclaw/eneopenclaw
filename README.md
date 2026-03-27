@@ -43,6 +43,8 @@
 - 🧠 **AI 기반 요약/분석 자동화** (2026): 대화/기록 자동 요약, OpenAI 기반 대화 인사이트 배치 도입
 - 🕹️ **실시간 대시보드 및 메타데이터 시각화** (2026): Obsidian/GitHub 기반 실시간 집계/모니터링
 - 🖼 **이미지 생성 파이프라인/AI 워크플로** (2026 새로 추가): HuggingFace 기반 ComfyUI+FLUX 대량 이미지 생성 및 변환 자동화, novel-ai 대화형 생성/피드백/기억 강화, async job 기반 대규모 연산 분산처리
+- ☁️ **멀티노드/분산 처리 실험** (2026): OpenClaw multi-node 지원, 멀티노드 워크플로우 분산 배치, 노드간 자원관리 자동화, 크로스머신 데이터 연동(Beta)
+- 🧩 **스킬/플러그인 핫스왑 및 테스트** (2026): OpenClaw Skill Hot-Reload, 독립형 플러그인 개발 및 동적 로드 실험
 
 ---
 
@@ -70,6 +72,8 @@
 - **Rust/TypeScript/Go 플러그인 실험**: 크로스플랫폼 자동화·스크립트 최신화, Obsidian 워크플로 재구성, ffmpeg/img2dataset 대량 변환 배치
 - **API·LLM 함수/자동화·멀티세션**: OpenClaw, LaunchAgent, Notion/Obsidian 자동화·동기화 강화, 리마인더·대시보드 관제 실험
 - **LaunchAgent/cron·Docker 기반 이중화**: 주요 프로세스 장애 자동복구 실험, 데이터·토큰 자동관리
+- **OpenClaw 멀티노드/분산 처리 지원** (2026): multi-node 워크플로 분산, 크로스머신 데이터 파이프라인 및 자원관리 실험
+- **OpenClaw Skill Hot-Reload/플러그인 핫스왑** (2026): 동적 플러그인 구조 확장, 스킬 독립 배포/테스트 실험
 
 ---
 
@@ -95,7 +99,7 @@
 
 ---
 
-<sub>last updated: 2026-03-27 by github-copilot/gpt-4.1 ⚡</sub>
+<sub>last updated: 2026-03-28 by github-copilot/gpt-4.1 ⚡</sub>
 <!-- last updated by github-copilot/gpt-4.1 -->
 
 </div>
