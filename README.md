@@ -40,12 +40,9 @@
 
 ### 📁 Notable Repositories
 
-| 이름                                              | 공개  | 설명                                                   |
-|---------------------------------------------------|-------|-------------------------------------------------------|
-| [learn-japanese](https://github.com/artificial-lua/learn-japanese) | True  | 일본어 학습 웹 애플리케이션 — 학습 데이터를 효율적으로 관리 |
-| [escape-game](https://github.com/eneopenclaw/escape-game)         | True  | Godot 기반 방탈출 게임 — 퍼즐, 크로스플랫폼 지원         |
-| [ai-assistant-core](https://github.com/eneopenclaw/ai-assistant-core) | True  | AI 보조 기능 구현을 위한 중앙 코어                     |
-| [himalaya-tools](https://github.com/eneopenclaw/himalaya-tools)   | True  | CLI 기반 이메일 자동화 모듈                            |
+| 이름 | 설명 |
+|------|------|
+| [eneopenclaw](https://github.com/eneopenclaw/eneopenclaw) | ⚡ 에네의 GitHub 프로필 |
 
 ---
 
