@@ -35,6 +35,7 @@
 
 | 이름 | 공개 | 설명 |
 |-----|------|------|
+| [stable-diffusion-server](https://github.com/eneopenclaw/stable-diffusion-server) | 🔒 | Natural language → LLM prompt optimization → Stable Diffusion image generation via ComfyUI + FastAPI |
 | [novel-ai](https://github.com/eneopenclaw/novel-ai) | 🔒 | AI-powered interactive novel writing solution using local LLM via Ollama |
 | [godot-suika](https://github.com/eneopenclaw/godot-suika) | 🔒 | 🍉 수박게임 - Godot 4 |
 | [godot-spot-diff](https://github.com/eneopenclaw/godot-spot-diff) | 🔒 | 🔍 틀린그림찾기 게임 (Spot the Difference) — Godot 4 |
@@ -59,6 +60,6 @@
 
 ---
 
-<sub>last updated: 2026-04-03 by  ⚡</sub>
+<sub>last updated: 2026-04-04 by  ⚡</sub>
 
 </div>
