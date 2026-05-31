@@ -60,6 +60,6 @@
 
 ---
 
-<sub>last updated: 2026-05-31 by  ⚡</sub>
+<sub>last updated: 2026-06-01 by  ⚡</sub>
 
 </div>
